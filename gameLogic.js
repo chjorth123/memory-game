@@ -17,11 +17,7 @@ const eventHead = document.querySelector('#cardTable');
 //set the highscore in local storage to 0
 localStorage.setItem("highscore", "0");
 
-const storedTasks = {
 
-}
-
-localStorage.setItem('storedTasks', JSON.stringify(storedTasks));
 
 eventHead.addEventListener('click', function(e){
     //card flipping from face down to face up logic
@@ -262,8 +258,6 @@ function updateScore(){
 function saveHighScore(){
     let potentialHighScore = score;
     let currentHighScore = localStorage.highscore;
-    console.log(potentialHighScore);
-    console.log(currentHighScore);
     if(potentialHighScore > currentHighScore){
         
         localStorage.highScore = potentialHighScore;
@@ -274,6 +268,5 @@ function saveHighScore(){
 //function to update high score
 function updateHighScore(newScore){
     let highScoreHolder = document.querySelector("#hsScore");
-    console.log(newScore);
     highScoreHolder.innerText = newScore;
 }
