@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="gameLooks.css">
+    <title >Memory Game</title>
+    
+    
+    
+</head>
+<body>
+    <h1 id="main">Matching Card Game</h1>
+    <h1 id='highscore'>Highest Score: <span id='hsScore'>0</span></h1>
+    <h1 id="score">Score:<span id='result'>0</span> Attempts:<span id = "attempts">0</span><button id="reset">Reset Game</button></h1>
+        <table id="cardTable">
+            <tr>
+                <td><img id = "one" class = "card" data-card="2h" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "two" class = "card" data-card="qd" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "three" class = "card" data-card="as" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "four" class = "card" data-card="qd" src="cardImages/card back black.png" alt="back of card" ></td>
+            </tr>
+            <tr>
+                <td><img id = "five" class = "card" data-card="8c" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "six" class = "card" data-card="jh" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "seven" class = "card" data-card="2h" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "eight" class = "card" data-card="3d" src="cardImages/card back black.png" alt="back of card" ></td>
+            </tr>
+            <tr>
+                <td><img id = "nine" class = "card" data-card="6s" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "ten" class = "card" data-card="jh" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "eleven" class = "card" data-card="8c" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "twelve" class = "card" data-card="6s" src="cardImages/card back black.png" alt="back of card" ></td>
+            </tr>
+            <tr>
+                <td><img id = "thirteen" class = "card" data-card="as" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "fourteen" class = "card" data-card="ah" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "fifteen" class = "card" data-card="ah" src="cardImages/card back black.png" alt="back of card" ></td>
+                <td><img id = "sixteen" class = "card" data-card="3d" src="cardImages/card back black.png" alt="back of card" ></td>
+            </tr>
+        </table>
+    
+    
+    <script src="gameLogic.js"></script>
+</body>
+</html>

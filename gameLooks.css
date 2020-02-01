@@ -1,0 +1,65 @@
+#main{
+    text-align: center;
+    color: blue;
+    background-color: steelblue;
+}
+body {
+    
+    background-color: white;
+    
+}
+#cardTable{
+    
+    margin-right: auto;
+    margin-left: auto;
+    border: black;
+    border-style: solid;
+    border-width: 5px;
+    height: 800px;
+    width: 580px;
+    background-color: steelblue;
+
+    
+}
+#reset{
+    font-size: 20px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: steelblue;
+}
+#highscore {
+    text-align: center;
+}
+#score{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.card {
+    width: 125px;
+}
+/*@keyframes cf3FadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+.card {
+    width: 125px;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}*/
